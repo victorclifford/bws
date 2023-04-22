@@ -1,0 +1,26 @@
+[
+  {
+    "job": "FetchFixtures",
+    "schedule": "* * * * *"
+  },
+  {
+    "job": "FetchLeagues",
+    "schedule": "0 0 * * *"
+  },
+  {
+    "job": "UpdateResults",
+    "schedule": "* * * * *"
+  },
+  {
+    "job": "Subscription",
+    "schedule": "* * * * *"
+  },
+  {
+    "job": "Standings",
+    "schedule": "15 * * * *"
+  },
+  {
+    "job": "CrawlNews",
+    "schedule": "30 * * * *"
+  }
+]

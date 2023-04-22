@@ -1,0 +1,37 @@
+<mjml>
+    <mj-head>
+        <mj-title>RESET YOUR PASSWORD</mj-title>
+        <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500"></mj-font>
+        <mj-attributes>
+            <mj-all font-family="Montserrat, Helvetica, Arial, sans-serif"></mj-all>
+            <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px"></mj-text>
+            <mj-section padding="0px"></mj-section>
+        </mj-attributes>
+    </mj-head>
+    <mj-body background-color="#F2F2F2">
+        <mj-section padding="0 20px 30px 20px" background-color="#FFFFFF">
+            <mj-column>
+                <mj-image width="350" src="https://firebasestorage.googleapis.com/v0/b/betweysure-511a4.appspot.com/o/images%2Fbetweysure_email_logo.png?alt=media&token=e452be6d-8d78-4a73-aa05-0579198213cb"></mj-image>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#FFFFFF">
+            <mj-column>
+                <mj-text align="center" font-weight="500" font-size="32px" line-height="40px" color="#15C0D6">Reset Your Password</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#FFFFFF">
+            <mj-column>
+                <mj-divider width="30px" border-width="3px" border-color="#9B9B9B"></mj-divider>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#ffffff" background-size="cover" background-repeat="no-repeat">
+            <mj-column width="100%">
+                <mj-image src="http://nimus.de/share/tpl-card/lineshadow.png" alt="" align="center" border="none" padding="0px"></mj-image>
+                <mj-text align="center" padding-top="20px">Hi, {{ firstName }},</mj-text>
+                <mj-text align="center" padding="10px 40px 0 40px" font-weight="300">Kindly click on the button below to reset your password and enjoy exclusive betting tips with us!</mj-text>
+                <mj-button align="center" background-color="#15C0D6" color="#FFFFFF" border-radius="2px" href="{{ url }}" inner-padding="15px 30px" padding-bottom="20px" padding-top="20px">RESET PASSWORD</mj-button>
+                <mj-text align="center" padding-bottom="40px">or copy the url below to your browser <br /><br />{{ url }}</mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
