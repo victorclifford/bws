@@ -1,0 +1,1 @@
+{"get":"fixtures","parameters":{"from":"2022-13-11","to":"2022-13-11","season":"2022"},"errors":{"season":"The Season field need another parameter.","from":"The From field need another parameter.","to":"The To field need another parameter."},"results":0,"paging":{"current":1,"total":1},"response":[]}

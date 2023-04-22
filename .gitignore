@@ -41,7 +41,7 @@ node_modules/
 jspm_packages/
 
 # application generated files
-storage/fixtures/
+# storage/fixtures/
 
 # TypeScript v1 declaration files
 typings/
